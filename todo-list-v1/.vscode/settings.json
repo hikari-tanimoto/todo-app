@@ -1,0 +1,6 @@
+{
+  "editor.language.colorizedBracketPairs": [],
+  "files.autoSave": "onWindowChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode"
+}

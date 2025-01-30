@@ -1,15 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Modal, ModalTrigger, ModalBody, ModalContent, ModalFooter } from "@/app/components/ui/animated-modal";
+import { Modal, ModalTrigger, ModalBody, ModalContent, ModalFooter } from "@/app/components/ui/AnimatedModal";
 import { ConfirmDialog } from "@/app/components/layouts/ConfirmDialog";
+import { TodoType } from "@/app/types/todo";
 
-type Props = {
-  title: string;
-  description: string;
-};
 
-export const Todo = ({ title, description }: Props) => {
+export const Todo = ({ title, description }: TodoType) => {
   const [isDone, setIsDone] = useState(false);
 
   const hondleDone = () => {
